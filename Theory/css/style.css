@@ -1,0 +1,358 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.big-wraper{
+    width: 100%;
+    height: 60%;
+    background-image: url("../images/banner.jpg");
+    border-top: 5px solid blueviolet;
+    margin-bottom: 50px;
+}
+.header{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+.header p{
+    color: #fff;
+    position: relative;
+    top: 30px;
+}
+ul{
+    float:right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin-right: 30px;
+}
+a{
+    color:#fff;
+    text-decoration: none;
+}
+.baner{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.baner h1{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 100;
+}
+.baner h5{
+    color:#fff;
+    margin-top: -20px;
+    font-weight: 100;
+}
+.box{
+    width: 1000px;
+    height: 30%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.left-box{
+    width: 300px;
+    height: 30%;
+    float: left;
+    margin-right: 50px;
+}
+.left-box h3{
+    color: #0080fe;
+  }
+.left-box h4{
+    color:gray;
+} 
+.left-box button
+{
+    width: 60px;
+    height: 40px;
+    color:white;
+    background-color:#0080fe;
+}
+.center-box{
+    width: 300px;
+    height: 30%;
+    margin-right: 30px;
+    float: left;
+}
+.center-box h3{
+    color: #0080fe;
+  }
+.center-box h4{
+    color:gray;
+} 
+.center-box button{
+    width: 60px;
+    height: 40px;
+    color:white;
+    background-color:#0080fe;
+}
+.right-box{
+    width: 300px;
+    height: 30%;
+    margin-left: 10px;
+    float: left;
+}
+.right-box h3{
+    color:#0080fe;
+  }
+.right-box h4{
+    color:gray;
+} 
+.right-box button{
+    width: 60px;
+    height: 40px;
+    color:white;
+    background-color:#0080fe;
+}
+.big-wraper-1{
+    width: 100%;
+    height: 80%;
+    background-color:#0080fe;
+    margin-bottom: 50px;
+}
+.header-1{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top:100px;
+    margin-bottom: 150px;
+}
+.header-1 h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+}
+.header-1 h5{
+    color: #fff;
+    position: relative;
+    top: -20px;
+    font-weight: 100;
+    font-size: 19px;
+}
+.img{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/* first image start */
+.left-img-1{
+    width:200px;
+    height: 300px;
+    border: 1px solid #fff;
+    float: left;
+    margin-right: 64px;
+}
+.img-1 img{
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    border: 1px solid black;
+}
+.img-1 h4{
+    position: relative;
+    top: 40px;
+    left: 80px;
+    color: #fff;
+}
+.img-1 h5{
+    position: relative;
+    top: 20px;
+    left: 65px;
+    color:#fff;
+    font-weight: 300;
+}
+/* first image finished  */
+/* second image stat here */
+.left-img-2{
+    width:200px;
+    height: 300px;
+    border: 1px solid #fff;
+    float: left;
+    margin-right: 64px;
+}
+.img-2 img{
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    border: 1px solid black;
+}
+.img-2 h4{
+    position: relative;
+    top: 40px;
+    left: 80px;
+    color: #fff;
+}
+.img-2 h5{
+    position: relative;
+    top: 20px;
+    left: 65px;
+    color:#fff;
+    font-weight: 300;
+}
+/* second image finished */
+/* third image starts */
+.left-img-3{
+    width:200px;
+    height: 300px;
+    border: 1px solid #fff;
+    float: left;
+    margin-right:64px;
+}
+.img-3 img{
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    border: 1px solid #fff;
+}
+.img-3 h4{
+    position: relative;
+    top: 40px;
+    left: 80px;
+    color: #fff;
+}
+.img-3 h5{
+    position: relative;
+    top: 20px;
+    left: 65px;
+    color:#fff;
+    font-weight: 300;
+}
+/* third image finished */
+/* forth image starts here */
+.left-img-4{
+    width:200px;
+    height: 300px;
+    border: 1px solid #fff;
+    float: left;
+}
+.img-4 img{
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+    border: 1px solid black;
+}
+.img-4 h4{
+    position: relative;
+    top: 40px;
+    left: 80px;
+    color: #fff;
+}
+.img-4 h5{
+    position: relative;
+    top: 20px;
+    left: 65px;
+    color:#fff;
+    font-weight: 300;
+}
+/* foth image finished */
+/* box-1 start */
+    .box-1{
+        width: 1000px;
+        height: 200px;
+        /* background-color: coral; */
+        margin: 0 auto;
+        text-align: center;
+        /* margin-bottom: 0px; */
+    }
+.box-1 h1{
+    color: #0080fe;
+    font-size: 50px;
+    font-weight: 100;
+    position: relative;
+    top: 30px;
+}
+.box-1 h4{
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+}
+/* box-1 finished here */
+/* box-2 starts  */
+.box-2{
+    width: 1000px;
+    height: 300px;
+    /* background-color: coral; */
+    margin: 0 auto;
+    /* margin-bottom: 200px; */
+}
+/* left img start */
+.left-img{
+    width: 480px;
+    height: 300px;
+    float: left;
+    /* background-color: crimson; */
+} 
+.left-image-1 h1{
+    color: #0080fe;
+    font-weight: 100;
+}
+.left-image-1 h4{
+    color: gray;
+}
+.left-image-1 button{
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background-color: #0080fe;   
+}
+/* left img finished */
+/* right img start here */
+.right-img{
+    width: 480px;
+    height: 300px;
+    float: right;
+}
+.right-image-2 h1{
+    color: #0080fe;
+    font-weight: 100;
+}
+.right-image-2 h4{
+    color: grey;
+}
+.right-image-2 button{
+    width: 60px;
+    height: 40px;
+    color: #fff;
+    background-color: #0080fe;
+}
+/* right img finished */
+/* box-2 finished */
+/* footer starts here */
+    .footer{
+        width: 1000px;
+        height: 100px;
+        margin: 0 auto;
+        float: left;
+        margin-top:200px;
+        border: 1px solid gray;
+        border-left:none;
+        border-right:none;
+        border-bottom: none;
+        margin-bottom: 10px;
+    }
+    .footer p{
+        float: left;
+        color: gray;
+        position: relative;
+        top: 30px;
+    }
+    .footer img{
+        float: right;
+        position: relative;
+        top: 20px;
+    }
+/* footer finished here */
