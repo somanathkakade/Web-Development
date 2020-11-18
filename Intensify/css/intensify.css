@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 1st part started */
+.header{
+    width: 100%;
+}
+.navi-con{
+    width:5%;
+    float: left;
+    margin-left: 10px;
+    font-size: 22px;
+    color: darkgray;
+}
+.center{
+    width: 90%;
+    float: left;
+    text-align: center;
+}
+.center a{
+    text-decoration: none;
+    color: red;
+    font-size: 25px;
+}
+.log-in{
+    width:5%;
+    float: right;
+    margin-right: 10px;
+    position: relative;
+    top: -25px;
+}
+.log-in button{
+    color: darkgreen;
+    /* width: 96%;
+    font-size: 10px;
+    padding: 8px 12px; */
+    background: none;
+    border: 1px solid darkgray;
+}
+/* 1st part over  */
+
+/* 2nd part started */
+.big-wraper{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.banner{
+    width: 60%;
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+.banner h1{
+    color: cornflowerblue;
+    font-size: 40px;
+}
+.banner p{
+    color: gray;
+}
+.banner button{
+    background-color: coral;
+    border: none;
+    color: #fff;
+    padding: 12px 35px;
+}
+/* 2nd part over */
+/* 3rd part started */
+.white-section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.left{
+    width:29%;
+    float: left;
+    margin-right:1%;
+}
+.left h2{
+    color: cornflowerblue;
+    padding-top: 100px;
+}
+.left h3{
+    color: cornflowerblue;
+    padding-top: 100px;
+    font-size: 23px;
+}
+.left p{
+    color:darkgray;
+}
+.center-1{
+    width: 40%;
+    /* background-color: darkred; */
+    float: left;
+    margin-right:1%;
+}
+.center-1 img{
+    width: 100%;
+    border-radius: 100%;
+}
+.right{
+    width: 29%;
+    float: left;;
+}
+.right h3{
+    color: cornflowerblue;
+    font-size: 23px;
+    padding-top: 100px;
+}
+.right h2{
+    color: cornflowerblue;
+    padding-top: 100px;
+}
+.right p{
+    color: darkgray;
+}
+/* 3rd part over */
+
+/* 4th part started */
+.coral-section{
+    width: 100%;
+    background-color: coral;
+    margin-bottom: 50px;
+    padding: 0 0 70px 0;
+}
+.inner-section{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.inner-section h1{
+    color: #fff;
+}
+.inner-section p{
+    color:#dbdbdb;
+}
+.inner-section h3{
+    color:#fff;
+}
+.inner-section h5{
+    color: #dbdbdb;
+}
+/* 4th part over */
+
+/* 5th part started */
+.img-section{
+    width: 80%;
+    margin: 0 auto;
+}
+.images{
+    width: 26.67%;
+    float: left;
+    border: 1px solid #dbdbdb;
+    margin-right:6%;
+}
+.images img{
+    width: 100%;
+    /* margin-left: 15px; */
+}
+.images h3{
+    color: cornflowerblue;
+    margin-left: 15px;
+}
+.images p{
+    line-height: 20px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+/* 5th part over */
+
+/* footer part started */
+.footer{
+    width: 100%;
+    background-color: cornflowerblue;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    padding-bottom: 180px;
+}
+.footer-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-text h1{
+    text-align: center;
+    color: whitesmoke;
+    position: relative;
+    top: 40px;
+}
+.footer-te{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    color: whitesmoke;
+    position: relative;
+    top: 70px;
+}
+.sm-text{
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    color: whitesmoke;
+    border-top: 1px solid #dbdbdb;
+}
+/* footer part over */
