@@ -1,0 +1,219 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+/* 1st part started */
+.big-wraper{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    background-image: url("../images/banner.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    width: 98%;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.header p{
+    float: left;
+}
+.header a{
+    color: #fff;
+    text-decoration: none;
+}
+.header ul{
+    float: right;
+}
+.header li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.header li span{
+    margin-right: 7px;
+}
+
+.text{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 220px;
+}
+.text h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 100;
+}
+.text p{
+    color: #dbdbdb;
+    font-size: 20px;
+}
+.text button{
+    background-color:cornflowerblue;
+    color: #fff;
+    border: none;
+    padding:10px;
+}
+/* 1st part over */
+
+/* 2nd part started */
+.white-section{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.left-section{
+    width: 40%;
+    float: left;
+}
+.left-section img{
+    width: 100%;
+    border-radius: 50%;
+}
+.right-section{
+    width: 58%;
+    float: right;
+    padding-top: 15px;
+}
+.right-section h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+.right-section p{
+    color: darkgray;
+    line-height: 30px;
+}
+.right-section button{
+    background-color:cornflowerblue;
+    color: #fff;
+    border: none;
+    padding:10px;
+}
+/* 2nd part over */
+
+/* 3rd part started */
+.blue-section{
+    width: 100%;
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+.inner-section{
+    width: 80%;
+    margin: 0 auto;
+}
+.inner-left{
+    width: 58%;
+    float: left;
+    padding-top: 20px;
+}
+.inner-left h2{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 100;
+}
+.inner-left p{
+    color:cornsilk;
+    line-height: 30px;
+}
+.inner-left button{
+    background-color: #fff;
+    color: cornflowerblue;
+    padding: 10px;
+    border: none;
+}
+.inner-right{
+    width: 40%;
+    height: 500px;
+    float: right;
+}
+.inner-right img{
+    width: 100%;
+    border-radius:50%;
+}
+/* 3rd part over */
+
+/* 4th part started */
+.plane-text{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 5px 0;
+    text-align: center;
+}
+.plane-text h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+.plane-text p{
+    color:gray;
+    font-size: 18px;
+}
+/* 4th part over */
+
+/* 5th started */
+.img-section{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.images{
+    width: 31%;
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+}
+.images p{
+    color:black;
+}
+.images button{
+    background-color:cornflowerblue;
+    color:#fff;
+    padding: 10px;
+    border: none;
+}
+.images img{
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #dbdbdb;
+    margin-right: 2%;
+}
+/* 5th part over */
+
+/* 6th part started */
+.footer{
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.footer p{
+    text-align: center;
+    color:gray;
+}
+.social{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    color:gray;
+}
+.social span{
+    margin-right: 7px;
+    border: 1px solid #dbdbdb;
+    padding: 5px;
+    border-radius: 100%;
+}
+/* 6th part over */
